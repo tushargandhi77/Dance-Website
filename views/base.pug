@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar.top 
+        ul
+            #logo  
+                img(src="/static/logo.jpg")
+                | DA
+            li #[a(href="/") Home]
+            li #[a(href="/about") About] 
+            li #[a(href="/service") Services] 
+            li #[a(href="/classinfo") Class Info] 
+            li #[a(href="/contact") Register Here] 
+    block content
+    footer#footer 
+        | Copyright 2019 danceAcademy.com | All right reserved

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0px 43px 0px 0px;
+}
+#logo img{
+    height: 45px;
+    filter: invert(1);
+}
+#navbar{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: black;
+    padding: 15px 23px;
+    font-family: 'Roboto', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* background-color: grey; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-weight: bold;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    padding: 13px 32px;
+}
+#navbar li a:hover{
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #51408f 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+#introSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: center / cover no-repeat url("/static/img.jpg");
+    border: 2px solid black;
+    color: white;
+    height: 840px;
+    background-color: red;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+
+    padding: 50px
+}
+#introSection div.small{
+    font-size: 37px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+#missionSection{
+    background-color: antiquewhite;
+}
+#missionSection h2{
+    padding: 24px;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    width: 30%;
+    height: 450px;
+    border-radius: 10px;
+    margin: 23px 23px;
+    background: center / cover no-repeat url("/static/img1.jpg");
+}
+.card:hover{
+    transform: scale(1.05);
+}
+#card1{
+    background: center / cover no-repeat url("/static/img1.jpg");
+}
+#card2{
+    color: rgb(109, 123, 136);
+    background: center / cover no-repeat url("/static/img2.jpg");
+
+}
+#card3{
+    color: rgb(210, 220, 229);
+    background: center / cover no-repeat url("/static/img3.jpg");
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+#sponsorsSection {
+    border: 2px solid black;
+    height: 300px;
+    background-color: rgba(209, 44, 44, 0.485);
+}
+#sponsorsSection h2{
+    text-align: center;
+    color: black;
+    font-size: 31px;
+    margin: 23px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImage{
+    height: 121%;
+    margin: 41px;
+}
+.spImage{
+    transition: all .2s ease-in-out;
+}
+.spImage:hover{
+    transform: scale(1.1);
+}
+#footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 60px;
+    background-color:black;
+}

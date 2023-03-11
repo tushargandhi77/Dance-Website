@@ -1,0 +1,42 @@
+extends base.pug
+block scripts
+  script(src='/static/home.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+
+    section#introSection 
+        div.animate-charcter Welcome To  Dance Academy
+        //- div.small Live sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission
+        div#card1.card 
+            h3 Dance Perfection
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos facilis dolores doloribus maxime aspernatur excepturi velit numquam ea? Laborum praesentium tempora nisi autem, atque cum hic ducimus at! Ratione numquam vitae omnis vel assumenda! Necessitatibus saepe quia magni consectetur recusandae quae, quo molestiae nisi doloremque non repudiandae, repellendus eaque corporis. Sequi deleniti molestias 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ab sunt officiis id repellat sequi iure deleniti velit et. Possimus quis, nam unde eligendi aperiam iure asperiores, eveniet enim, adipisci vitae maiores. Cupiditate soluta porro quibusdam fugiat commodi quis omnis numquam maxime. Eum dolor ipsam iste sit illo incidunt possimus temporibus tempore quos sed porro aut autem repellat sequi delectus id nemo adipisci ad, quisquam expedita necessitatibus! Doloribus, necessitatibus doloremque atque deleniti facilis temporibus quos reprehenderit, dolorem beatae tempora debitis!
+
+        div#card2.card 
+            h3 Dance the way you like
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quis possimus velit! Reiciendis qui omnis quis! Dolorem odit rerum iusto, consequuntur quis totam fuga quod, corrupti ab magnam odio ipsum eos, esse labore officiis porro consectetur explicabo illum distinctio blanditiis! Asperiores rerum repellat maiores voluptas expedita obcaecati sunt rem explicabo?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ab sunt officiis id repellat sequi iure deleniti velit et. Possimus quis, nam unde eligendi aperiam iure asperiores, eveniet enim, adipisci vitae maiores. Cupiditate soluta porro quibusdam fugiat commodi quis omnis numquam maxime. Eum dolor ipsam iste sit illo incidunt possimus temporibus tempore quos sed porro aut autem repellat sequi delectus id nemo adipisci ad, quisquam expedita necessitatibus! Doloribus, necessitatibus doloremque atque deleniti facilis temporibus quos reprehenderit, dolorem beatae tempora debitis!
+        div#card3.card 
+            h3 Expert Teaching
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint in illo. Optio, expedita atque. Eaque quos illum iste temporibus non esse sed impedit a! Numquam accusantium illo saepe perspiciatis nesciunt quidem quasi officia consequuntur iure temporibus impedit eos similique officiis aut vitae, ipsam eius! Accusantium voluptates expedita error ea.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ab sunt officiis id repellat sequi iure deleniti velit et. Possimus quis, nam unde eligendi aperiam iure asperiores, eveniet enim, adipisci vitae maiores. Cupiditate soluta porro quibusdam fugiat commodi quis omnis numquam maxime. Eum dolor ipsam iste sit illo incidunt possimus temporibus tempore quos sed porro aut autem repellat sequi delectus id nemo adipisci ad, quisquam expedita necessitatibus! Doloribus, necessitatibus doloremque atque deleniti facilis temporibus quos reprehenderit, dolorem beatae tempora debitis!
+
+    section#sponsorsSection 
+        h2 Our Sponsors 
+        div#sponsors 
+            a(href='https://www.sony.co.in' target="_blank")
+                img(src="/static/s1.png",alt="Sponsor Image",class="spImage")
+            a(href='https://www.apple.com' target="_blank")
+                img(src="/static/s2.png",alt="Sponsor Image",class="spImage")
+            a(href='https://www.instagram.com' target="_blank")
+                img(src="/static/s3.png",alt="Sponsor Image",class="spImage")
+            a(href='https://www.skype.com/en/' target="_blank")
+                img(src="/static/s4.png",alt="Sponsor Image",class="spImage")
+        
